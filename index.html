@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                background-color: skyblue;
+            }
+            .header {
+                text-align: center;
+                padding: 30px;
+                background-color: darkslateblue;
+                font-size:40px;
+                color: rgb(23, 178, 240);
+                animation-name: tittle;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
+
+            }
+            @keyframes tittle{
+                from{background-color: rgb(23, 178, 240);}
+                to{background-color:rgb(8, 22, 104);}
+            }
+            .quotes{
+                display:flex;
+            }
+            .quotes > div{
+                text-align: center;
+                padding: 30px;
+                font-family: ' sans-serif';
+                background-color: lightblue;
+                box-shadow: 10px 10px #0f0a5a;
+                box-sizing:100px;
+                margin: 16px;
+                height:100px;
+                width:600px;
+                font-size: 30px;
+                
+
+            }
+
+            .image{
+                background-image: url('images/img1.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                height:100%;
+                width:100%;
+                
+            }
+
+            .problem{
+                height:100px;
+                width:100px;
+                background-color: white;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            Knowledge is Power
+            </div>
+            <div class="quotes">
+                <div>
+                    "Education is the passport to the future;<br>
+                    For tomarrow those who prepare for it today".
+                </div>
+                <div>
+                    "The Whole Purpose of Education is <br>to turn mirrows into windows".
+                </div>
+            </div>
+
+            <div class="image">
+                <div style="problem">
+                    Today Problem:
+                </div>
+                
+            </div>
+
+            
+        
+    </body>
+</html>
